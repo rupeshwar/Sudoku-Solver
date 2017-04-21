@@ -14,11 +14,18 @@ It uses a collection of basic image processing techniques and K-Nearest Neighbor
 
 ## Usage:
 
-> git clone https://github.com/prajwalkr/SnapSudoku.git
 
-> cd SnapSudoku
+> git clone https://github.com/rupeshwar/Sudoku-Solver.git
 
-> python sudoku.py "path-to-input-image"
+> cd Sudoku-Solver
+
+**To solve the Sudoku -**
+
+> python solve_sudoku.py -i "path-to-input-image"
+
+**For OCR Training -**
+
+> python train_OCR.py -i "path-to-input-image"
 
 ## Working:
 **To solve the Sudoku major steps are:**
