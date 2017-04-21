@@ -27,6 +27,7 @@ It uses a collection of basic image processing techniques and K-Nearest Neighbor
 
 > python train_OCR.py -i "path-to-input-image"
 
+
 ## Working:
 **To solve the Sudoku major steps are:**
 1. Preprocessing the image
