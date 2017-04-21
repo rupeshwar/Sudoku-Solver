@@ -54,8 +54,6 @@ def train_digits_ocr(cube_array):
             cnt = cnt[0]
 
             [x, y, w, h] = cv2.boundingRect(cnt)
-
-            # cv2.rectangle(cell_im, (x, y), (x + w, y + h), (0, 0, 255), 2)
             roi = cell_im[y:y + h, x:x + w]
             roismall = cv2.resize(roi, (15, 15))
             cv2.imshow('norm', cell_im)
