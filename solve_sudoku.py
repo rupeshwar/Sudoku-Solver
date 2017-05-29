@@ -153,7 +153,7 @@ def get_digits_ocr(cube_array, cube_is_digit):
             roismall = cv2.resize(roi, (15, 15))
             roismall = roismall.reshape((1, 225))
             roismall = np.float32(roismall)
-            retval, results, neigh_resp, dists = model.findNearest(roismall, k=1)
+            retval, results, neigh_resp, dists = model.findNearest(roismall, k=3)
             text = str(int((results[0][0])))
 
             cube_is_digit[x] = 1
