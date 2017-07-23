@@ -31,7 +31,7 @@ It uses a collection of basic image processing techniques and K-Nearest Neighbor
 ## Working:
 **To solve the Sudoku major steps are:**
 1. Preprocessing the image
-2. Finding the sudoku and do Warp perspective
+2. Finding the sudoku and do Perspective Transformation
 3. Extracting the cells of the sudoku
 4. Recognising the digits (OCR)
 5. Solve the sudoku
@@ -43,7 +43,7 @@ It uses a collection of basic image processing techniques and K-Nearest Neighbor
 #### Image After Prepocessing -
 <img alt="After Prepocessing" src="/Screenshots/After Prepocessing.jpg?raw=true" width="480px">
 
-#### After Warp perspective -
+#### After Perspective Transformation -
 <img alt="After Warp perspective" src="/Screenshots/After Warp perspective.jpg?raw=true" width="280px">
 
 #### Extracting Digit - 
